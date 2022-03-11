@@ -7,6 +7,7 @@ import { pageAnimation } from "../animation";
 
 const MovieDetail = () => {
   const history = useLocation();
+  // eslint-disable-next-line no-unused-vars
   const [movies, setMovies] = useState(MovieState);
   const [movie, setMovie] = useState(null);
 

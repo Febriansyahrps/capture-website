@@ -8,7 +8,7 @@ import { fade } from "../animation";
 const FaqSection = () => {
   const [element, controls] = useScroll();
   return (
-    <Faq variants={fade} animate={controls} initial="hide" ref={element}>
+    <Faq variants={fade} animate={controls} initial="hidden" ref={element}>
       <h1>
         Any question? <span>FAQ</span>
       </h1>

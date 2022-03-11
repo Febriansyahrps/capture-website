@@ -8,7 +8,7 @@ import { motion } from "framer-motion/dist/framer-motion";
 const ServicesSection = () => {
   const [element, controls] = useScroll();
   return (
-    <Services variants={fade} animate={controls} initial="hide" ref={element}>
+    <Services variants={fade} animate={controls} initial="hidden" ref={element}>
       <Description>
         <h1>
           High <span>Quality</span> Service
