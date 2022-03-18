@@ -67,7 +67,6 @@ export const Faq = styled(motion.div)`
   display: block;
   padding: 5rem 5rem;
   color: white;
-  display: block;
   span {
     display: block;
   }
